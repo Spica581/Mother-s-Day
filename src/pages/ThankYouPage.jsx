@@ -36,13 +36,15 @@ function ThankYouLine({ text, index }) {
       >
         ✦
       </motion.span>
-      <p className={`font-display font-light text-plum/85 leading-relaxed ${
-        text === 'Thank you, Mom.'
-          ? 'text-3xl md:text-4xl font-normal text-rose text-glow'
-          : 'text-xl md:text-2xl'
-      }`}>
-        {text}
-      </p>
+      <p
+        className={`font-display font-light text-rose-100 leading-relaxed ${
+          text === 'Thank you, Mom.'
+      ? 'text-3xl md:text-4xl font-normal text-pink-200 drop-shadow-[0_0_12px_rgba(255,192,203,0.8)]'
+      : 'text-xl md:text-2xl'
+  }`}
+>
+  {text}
+</p>
     </motion.div>
   )
 }
