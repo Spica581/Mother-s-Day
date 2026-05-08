@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 // We'll use a free royalty-free music URL
 // You can replace this with your own audio file placed in /public/music.mp3
-const MUSIC_URL = 'https://assets.mixkit.co/music/preview/mixkit-serene-view-443.mp3'
+const MUSIC_URL = 'https://www.youtube.com/watch?v=xOkBD4uPkcw'
 
 export default function MusicToggle() {
   const audioRef  = useRef(null)
