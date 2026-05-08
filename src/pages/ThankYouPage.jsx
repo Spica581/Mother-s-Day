@@ -32,15 +32,15 @@ function ThankYouLine({ text, index }) {
         whileInView={{ scale: 1 }}
         viewport={{ once: true }}
         transition={{ delay: index * 0.15 + 0.3, type: 'spring' }}
-        className="text-rose text-lg mt-1 flex-shrink-0"
+        className="text-pink-200 drop-shadow-[0_0_8px_rgba(255,182,193,0.8)] text-lg mt-1 flex-shrink-0"
       >
         ✦
       </motion.span>
       <p
-        className={`font-display font-light text-rose-100 leading-relaxed ${
-          text === 'Thank you, Mom.'
-      ? 'text-3xl md:text-4xl font-normal text-pink-200 drop-shadow-[0_0_12px_rgba(255,192,203,0.8)]'
-      : 'text-xl md:text-2xl'
+  className={`font-display leading-relaxed ${
+    text === 'Thank you, Mom.'
+      ? 'text-3xl md:text-4xl font-normal text-[#fff0f5] drop-shadow-[0_0_18px_rgba(255,192,203,1)]'
+      : 'text-xl md:text-2xl font-light text-white/95 drop-shadow-[0_0_10px_rgba(255,255,255,0.35)]'
   }`}
 >
   {text}
