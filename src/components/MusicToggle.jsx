@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 // We'll use a free royalty-free music URL
 // You can replace this with your own audio file placed in /public/music.mp3
-const MUSIC_URL = '/salamat.mp3'
+const MUSIC_URL = '/Salamat.MP3'
 
 export default function MusicToggle() {
   const audioRef  = useRef(null)
