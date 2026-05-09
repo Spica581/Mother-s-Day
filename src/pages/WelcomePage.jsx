@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'
 import { useTypewriter } from '../hooks/useTypewriter'
 import FloatingPetals from '../components/FloatingPetals'
 
-const LINE1 = 'Happy Mother\'s Day, Mom'
-const LINE2 = 'I made something special — just for you.'
+const LINE1 = 'Happy Mother\'s Day, Mommy'
+const LINE2 = 'I made something special — just for you ^ ^.'
 
 export default function WelcomePage({ onNext }) {
   const { displayed: title, done: titleDone } = useTypewriter(LINE1, 70, 800)
