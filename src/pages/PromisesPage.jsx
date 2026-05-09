@@ -15,20 +15,20 @@ const PROMISES = [
   },
   {
     icon:    '🏠',
-    promise: 'I Promise to Come Home',
-    detail:  'No matter how far life takes me, home — where you are — will always pull me back.',
+    promise: 'I Promise to Be More Responsible',
+    detail:  'No matter how far I am from you, I will make decisions what are responsible.',
     color:   '#F4A261',
   },
   {
     icon:    '👂',
     promise: 'I Promise to Listen More',
-    detail:  'To your stories, your worries, your wisdom. You\'ve earned my full, undivided attention.',
+    detail:  'To your stories, your worries, your wisdom, your bilins, your pagsabihans. You have my full, undivided attention.',
     color:   '#9B8EC4',
   },
   {
     icon:    '💪',
     promise: 'I Promise to Make You Proud',
-    detail:  'Every step forward I take, I carry you with me. Your belief in me is what drives me.',
+    detail:  'Every step forward I take, I carry you with me. You believing in me is what drives me.',
     color:   '#2ECC71',
   },
   {

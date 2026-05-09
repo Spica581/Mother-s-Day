@@ -41,7 +41,7 @@ const FUNNY_MOMENTS = [
     moment: 'The Grocery Store And Malls',
     story:  '"We\'ll only be 5 minutes!" — 2 hours later, still comparing towels. Time works differently in a store with Mom.',
     color:  '#FCE4EC',
-    label:  'Time Traveler 🕐',
+    label:  'Little Helper',
   },
   {
     emoji:  '🤫',
