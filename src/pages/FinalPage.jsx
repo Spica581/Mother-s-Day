@@ -117,7 +117,7 @@ export default function FinalPage({ onRestart, onPrev }) {
               I'd still choose you
               <br />
               <span className="text-rose font-normal" style={{ textShadow: '0 0 30px rgba(255,107,157,0.7)' }}>
-                as my Mom.
+                as my Mommy.
               </span>
             </motion.h1>
           )}
